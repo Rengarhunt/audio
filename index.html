@@ -31,13 +31,13 @@
               <span v-if="item.mvid!=0" @click="playMV(item.mvid)"><i></i></span>
             </li>
           </ul>
-          <img src="/VueStudy/1/music/images/line.png" class="switch_btn" alt="">
+          <img src="images/line.png" class="switch_btn" alt="">
         </div>
         <!-- 歌曲信息容器 -->
         <div class="player_con" :class="{playing:isPlaying}">
-          <img src="/VueStudy/1/music/images/player_bar.png" class="play_bar" />
+          <img src="images/player_bar.png" class="play_bar" />
           <!-- 黑胶碟片 -->
-          <img src="/VueStudy/1/music/images/disc.png" class="disc autoRotate" />
+          <img src="images/disc.png" class="disc autoRotate" />
           <img :src="musicCover" class="cover autoRotate" />
         </div>
         <!-- 评论容器 -->
@@ -52,7 +52,7 @@
               </dd>
             </dl>
           </div>
-          <img src="/VueStudy/1/music/images/line.png" class="right_line">
+          <img src="images/line.png" class="right_line">
         </div>
       </div>
       <div class="audio_con">
@@ -68,7 +68,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <!-- 官网提供的 axios 在线地址 -->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="https://github.com/Rengarhunt/Rengarhunt.github.io/main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
